@@ -24,6 +24,7 @@ li{
      display: flex;
      justify-content: space-between;
      margin: 90px;
+     margin-left: 11.5%;
  }
  ul{
      display: flex;
@@ -40,6 +41,7 @@ li{
  ----------------------*/
  .sec_one{
     margin: 70px;
+    margin-left: 10%;
  }
  .first-section{
      display: flex;
