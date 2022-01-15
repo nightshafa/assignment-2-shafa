@@ -7,7 +7,7 @@
  ----------------------*/
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 50px;
+    margin: 70px;
 }
 a{
     text-decoration: none;
@@ -26,6 +26,7 @@ li{
      justify-content: space-between;
      margin-left: 20px;
      margin-right: 20px;
+     margin-bottom: 150px;
  }
  ul{
      display: flex;
@@ -38,16 +39,101 @@ li{
 
 
  /*---------------------
- Main section start 
+ First section start 
  ----------------------*/
  .first-section{
      display: flex;
+ }
+ .first-section-text{
+    width: 50%;
+    margin-left: 20px;
  }
  .first-section-text h1{
      font-size: 50px;
      font-weight: 150px;
  }
- /* .first-section-img{
+ .first-section-img{
      width: 50%;
- } */
+     margin-top: -20px;
+ }
+ .first-section-img img{
+     margin-left: 80px;
+ }
+ .button{
+     background-color: #cc3e79;
+     padding: 10px 20px;
+     color: aliceblue;
+     border-radius: 50px;
+ }
+ .button i svg{
+     padding-left: 10px;
+     color: yellowgreen;
+ }
+
+
  
+ /*---------------------
+ Second section start 
+ ----------------------*/
+ .second-section{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 110px;
+     padding: 0;
+ }
+ .section-text{
+     text-align: center;
+ }
+ .box{
+     border: 1px solid #ffffff;
+     border-radius: 5px;
+     box-shadow: 3px 1px 18px -2px #cccbcb;
+     width: 270px;
+     height: 430px;
+     padding-left: 0;
+     margin-bottom: 20px;
+     margin-top: 0;
+ }
+ .card-detil img{
+     height: 230px;
+     width: 250px;
+     margin: 10.5px; 
+ }
+ .text-detail{
+     margin-left: 10px;
+     margin-top: 0;
+     line-height: 10px;
+ }
+ .price{
+     font-size: 22px;
+ }
+ .fa-star{
+     font-size: 9px;
+     color: #f8af42;
+ }
+ .card-bottom{
+     font-size: 12px;
+     color: #868383;
+ }
+ .star-view{
+     display: flex;
+ }
+ .star-icon{
+     margin-right: 0;
+     margin-top: -1px; 
+ }
+ .star-view p{
+     margin-left: 5px;
+     margin-top: -0.001px; 
+}
+.card-bottom{
+    margin-left: 11px;
+    margin-top: 0;
+}
+.bottom-btn{
+    color: #cc3e79;
+    font-size: 15px;
+    font-weight: 160px;
+    margin-left: 180px;
+    padding-top: 40px;
+}
