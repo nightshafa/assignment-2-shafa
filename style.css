@@ -1,0 +1,53 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+
+/*---------------------
+ common style 
+ ----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+/*---------------------
+ Header Nav 
+ ----------------------*/
+ nav{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+ ul{
+     display: flex;
+ }
+ li{
+     margin-right: 25px;
+     font-weight: 100px;
+ }
+
+
+
+ /*---------------------
+ Main section start 
+ ----------------------*/
+ .first-section{
+     display: flex;
+ }
+ .first-section-text h1{
+     font-size: 50px;
+     font-weight: 150px;
+ }
+ /* .first-section-img{
+     width: 50%;
+ } */
+ 
